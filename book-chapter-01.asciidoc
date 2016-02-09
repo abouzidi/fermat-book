@@ -9,15 +9,15 @@ Fermat has its own vision of how to carry out the collaborative project of their
 The goal is to have a framework for developing financial applications in a trust-less environment. What are the services that had to be granted at the lower levels to enable this?
 
 The basic infrastructure ::
-The _Fermat Core Platform_ is the part of the system which initializes the entire set of components, starting every plug-in and putting them to run. This creates the interconnection that lets all the services to be offered as being integral part of one unified system.
+The _Fermat Core Platform_ is the part of the system which initializes the entire set of components, starting every plug-in and putting them to run. This creates the interconnection that lets all the services be offered as an integral part of one unified system.
 The basic services ::
 ** Connection to different Operating Systems that will run Fermat on any chosen device.
-** Interconnectivity to crypto networks and blockchain services providers to enable the *transport of value*.
+** Interconnectivity to crypto networks and blockchain service providers to enable the *transport of value*.
 ** P2P communication of the devices running Fermat to enable the *transport of information (meta-data)*
 The plug-ins environment ::
 _Fermat Plug-ins Platform_ deals with this task allowing system users to be identified, low level plug-ins to be recognized as part of the system and communication services to link plug-ins living in different devices and so on. In general terms, all these allow various _network services_ to run and start building the set of functionalities that will be taken by the applications built on top.
 
-NOTE: At this stage of development, Fermat already offers a wide scope of REUSABLE components for third parties to build on top of, encouraging further development of the plan and enriching it with every single addition.
+NOTE: At the current stage of development, Fermat already offers a wide scope of REUSABLE components for third parties to build on top of, encouraging further development of the plan and enriching it with every single addition.
 
 
 === Phase II: First structures
