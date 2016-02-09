@@ -9,7 +9,7 @@ Open Source :: The code can be reviewed and audited by anyone.
 P2P network and decentralized :: Censorship resistant and difficult to attack.
 Platform Stack :: Functionalities are wrapped in categories easy to grasp.
 Plug-in Architecture :: Reuse of components and open so that any developer can participate.
-It runs on end-users' devices :: Users have control of their money without the need to trust a third party.
+It runs on end-users devices :: Users have control of their money without the need to trust a third party.
 
 === What is Fermat made up of?
 
@@ -27,13 +27,13 @@ Fermat system is built on several overlapping architectural paradigms:
 
 . At a higher level, it is a *peer-to-peer system with asymmetric nodes*, meaning that each node, even when having all of the codebase, specializes itself according to the profile of the end user or the way it was configured.
 
-. Inside each node Fermat features a *multi-OS architecture* meaning that the lowest level OS-dependent components are wrapped in a way that can be easily replaced when running on a different OS without affecting the rest of the components that consume services from them. The up-most components, the ones facing the end user (GUI) are also OS-dependent. Everything in between is *not*.
+. Inside each node Fermat features a *multi-OS architecture* meaning that the lowest level OS-dependent components are wrapped in a way that can be easily replaced when running on a different OS without affecting the rest of the components that consume services from them. The upmost components, the ones facing the end user (GUI) are also OS-dependent. Everything in between is *not*.
 
-. At the same time it features a plug-ins architecture inserted into a *multi-layered structure*. These layers are occasionally grouped into *Superlayers*.
+. At the same time it features a plug-in architecture inserted into a *multi-layered structure*. These layers are occasionally grouped into *Superlayers*.
 
 . These *Plug-ins* are subdivided into a hierarchy of *Platforms*. Those *Platforms* share a common set of layers, and each one adds *Actors* and *Products* to the overall functionality of the Fermat system. Inside each Plug-in, you might find a specialized structure and in many cases a database or files belonging to that Plug-in.
 
-. At a system level, Fermat uses specialized crawlers to collect or sometimes inject information into nodes in order to recreate a system level consciousness prepared to resist attacks or other relevant issues.
+. At a system level, Fermat uses specialized crawlers to collect or sometimes infuse information into nodes in order to recreate a system level consciousness prepared to resist attacks or other relevant issues.
 
 ==== P2P network architecture
 Fermat is a _distributed system_, that runs on end user's devices, so it needs to establish a connection between every actor and
@@ -55,7 +55,7 @@ There are certain *Layers* that provide services at a system-wide scale (see *su
 
 ==== Plug-ins architecture
 *Plug-ins* have an outstanding feature: as long as their INTERFACE (i.e. the shape of the interconnection) is known and public, the Plug-in can interact with others, consuming and offering services, INDEPENDENTLY of its inner structure and how it is built. As long as they keep this INTERFACE, they can safely evolve to be more efficient and functioning WITHOUT altering a single service that has been built upon it!
-Inside Fermat, each Plug-in is given certain specific responsibility within; it lives in a certain layer, and it is allowed to consume services of components on _lower layers_ and to provide services to components of _upper layers_. Plug-ins participate in high level processes and are programmed in a way to live in an uncontrolled environment (end-user devices) and to co-exist with un-trusted third party plug-ins as well.
+Inside Fermat, each Plug-in is given certain specific responsibility within; it lives in a certain layer, and it is allowed to consume services of components on _lower layers_ and to provide services to components of _upper layers_. Plug-ins participate in high level processes and are programmed in a way to live in an uncontrolled environment (end-user devices) and to coexist with untrusted third party plug-ins as well.
 With this, Fermat is able to connect and reuse most of the infrastructure deployed by the industry.
 
 ==== Platform architecture
@@ -72,7 +72,7 @@ Once we have described Fermat's components and architecture, we will explore in 
 
 
 For a cool view of Fermat and its constant growing number of platforms and superlayers visit http://fermat.org
-We will cover the platforms and superlayers from bottom to top and from left to right, as they are presented in the visualization.
+We will cover each of the platforms and superlayers from top to bottom and left to right, as they are presented in the visualization.
 
 So, go ahead and enter the "building site" and explore the foundations.
 
