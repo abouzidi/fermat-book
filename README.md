@@ -11,7 +11,7 @@ Welcome to Fermat's  official book !
 This is the repository version of Fermat's book. 
 There is only a draft preliminar version available, which is NOT UP TO DATE with the project's latest conceptual development.
 To begin reading the book please click on the following link:
-[Fermat Book](https://github.com/Fermat-ORG/fermat-book/blob/master/README.md)
+[Fermat Book](https://github.com/Fermat-ORG/fermat-book/blob/master/book-chapter-00(intro).asciidoc)
 
 For project documentation, please refer to the root directory of the main repository: 
 [Fermat Main Repo](https://github.com/Fermat-ORG/fermat)
